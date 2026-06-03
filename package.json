@@ -1,0 +1,21 @@
+{
+  "name": "one-shot-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Sushit Karki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^5.0.6",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
