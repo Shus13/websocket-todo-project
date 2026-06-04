@@ -4,7 +4,7 @@ import { exit } from "node:process";
 
 async function connectDB() {
     try{
-        mongoose.connection.on("connection", ()=>{
+        mongoose.connection.on("connected", ()=>{
             console.log("Database connected successfully")
         })
         await mongoose.connect(envConfig.mongoConnectionString as string)

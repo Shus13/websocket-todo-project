@@ -1,6 +1,7 @@
 import mongoose, { mongo } from "mongoose";
 import type { IToDo } from "./todoTypes.js";
 import { Status } from "./todoTypes.js";
+import { Server } from "socket.io";
 
 const Schema = mongoose.Schema;
 
