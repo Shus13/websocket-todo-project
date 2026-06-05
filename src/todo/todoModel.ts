@@ -1,7 +1,5 @@
-import mongoose, { mongo } from "mongoose";
-import type { IToDo } from "./todoTypes.js";
-import { Status } from "./todoTypes.js";
-import { Server } from "socket.io";
+import mongoose from "mongoose";
+import { type IToDo, Status } from "./todoTypes.js";
 
 const Schema = mongoose.Schema;
 
@@ -15,4 +13,4 @@ const todoSchema = new Schema<IToDo>({
   },
 });
 
-export default mongoose.model("todo", todoSchema);
+export default mongoose.model("Todo", todoSchema);
